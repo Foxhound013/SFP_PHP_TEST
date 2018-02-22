@@ -1,0 +1,7 @@
+<phpunit bootstrap="vendor/autoload.php" colors="true">
+  <testsuites>
+    <testsuite name="money">
+      <directory suffix="Test.php">vendor/sfp/php-test-grade/tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

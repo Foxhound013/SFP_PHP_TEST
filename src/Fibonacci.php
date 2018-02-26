@@ -1,7 +1,7 @@
 <?php
 namespace Sfp;
 
-class Even {
+class Fibonacci {
     var $filePath;
 
     //Open csv and get the fibonacci data
@@ -52,7 +52,7 @@ class Even {
 
   //instantiate the class
   $filePath = "..\\assets\\fibonacci.csv";
-  $test = new Even();
+  $test = new Fibonacci();
   $test->execute($filePath);
 
 
